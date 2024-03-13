@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import "fmt"
 
@@ -9,14 +9,14 @@ Q1. For-loop
 3. 再次改写这个循环，使其遍历一个 array，并将这个 array 打印在屏幕上。
 */
 
-func main() {
+func Q1Answer() {
 	var iter_num int = 10
 	var arr = [...]int{0, 1, 2, 3, 4, 5}
-	fmt.Println(">>>>>>>>>>>>>>>>>>>>Answer 1.<<<<<<<<<<<<<<<<<<<")
+	fmt.Println(">>>>>>>>>>>>>>>>>>>>Chapter 1. Answer 1.1.<<<<<<<<<<<<<<<<<<<")
 	forLoopQuestion1(iter_num)
-	fmt.Println(">>>>>>>>>>>>>>>>>>>>Answer 2.<<<<<<<<<<<<<<<<<<<")
+	fmt.Println(">>>>>>>>>>>>>>>>>>>>Chapter 1. Answer 1.2.<<<<<<<<<<<<<<<<<<<")
 	forLoopQuestion2(iter_num)
-	fmt.Println(">>>>>>>>>>>>>>>>>>>>Answer 3.<<<<<<<<<<<<<<<<<<<")
+	fmt.Println(">>>>>>>>>>>>>>>>>>>>Chapter 1. Answer 1.3.<<<<<<<<<<<<<<<<<<<")
 	forLoopQuestion3(arr)
 }
 
@@ -27,8 +27,7 @@ func forLoopQuestion1(iter_num int) {
 }
 
 func forLoopQuestion2(iter_num int) {
-	var i int
-	i = 0
+	var i int = 0
 ifLabel:
 	if i < iter_num {
 		goto loopLabel
