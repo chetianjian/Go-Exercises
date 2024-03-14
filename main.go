@@ -3,6 +3,7 @@ package main
 import (
 	chapter1 "go-exercise/chapter_1"
 	chapter2 "go-exercise/chapter_2"
+	chapter4 "go-exercise/chapter_4"
 )
 
 func main() {
@@ -19,4 +20,5 @@ func main() {
 	chapter2.Q12Answer()
 	chapter2.Q13Answer()
 	chapter2.Q14Answer()
+	chapter4.Q18Answer()
 }
